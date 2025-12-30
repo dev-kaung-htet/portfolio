@@ -29,7 +29,7 @@ const Sidebar = ({ posts, categories, className }) => {
           <div className="flex items-center justify-center">
             <ImageFallback
               className="-z-[1] object-center"
-              src="/images/profile.png"
+              src="/images/profile.PNG"
               width={200}
               height={200}
               alt="bg-map"
