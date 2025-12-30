@@ -107,29 +107,29 @@ const About = ({ data }) => {
             <h4 className="mb-3 font-semibold ">Core Contributions</h4>
             <ul className="list-inside list-disc space-y-2  marker:text-primary">
               <li>
-                Developed responsive and highly interactive interfaces using
-                Next.js, Tailwind CSS, and Framer Motion, ensuring a seamless
-                and engaging user experience.
+                Engineered high-performance, responsive applications using
+                Next.js and Tailwind CSS.
               </li>
               <li>
-                Designed and optimized PostgreSQL database schemas and
-                integrated Prisma ORM for type-safe, efficient, and scalable
-                data management.
+                Designed optimized PostgreSQL schemas and integrated Prisma ORM
+                for type-safe and scalable data architecture.
               </li>
               <li>
-                Implemented role-based dashboards featuring customer and
-                operator management, subscription tracking, and system
-                analytics.
+                Created fluid animations and complex micro-interactions using
+                Framer Motion, significantly elevating UI polish and user
+                engagement.
               </li>
               <li>
-                Built modular form and data management features with search,
-                filtering, and version control capabilities to enhance
-                operational workflows.
+                Built scalable role-based dashboards for customer management,
+                subscription tracking, and system analytics.
               </li>
               <li>
-                Delivered maintainable, high-quality full-stack solutions using
-                Next.js, Node.js, Prisma ORM, PostgreSQL, and SWR, following
-                best practices in performance and code quality.
+                Developed modular form systems with version control that
+                streamlined operational workflows.
+              </li>
+              <li>
+                Implemented efficient data fetching strategies using SWR to
+                ensure responsive and fast user experiences.
               </li>
             </ul>
           </div>
