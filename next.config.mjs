@@ -1,11 +1,5 @@
-
-const isProd = process.env.NODE_ENV === "production";
-
-const basePath = isProd ? "/geeky-nextjs" : "";
-
 const nextConfig = {
-  basePath,
-  assetPrefix: basePath,
+  // basePath and assetPrefix are removed so it defaults to "/"
   images: {
     unoptimized: true,
   },
@@ -14,7 +8,8 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
+    // Keep this as an empty string in case your components use it
+    NEXT_PUBLIC_BASE_PATH: "",
   },
 };
 
