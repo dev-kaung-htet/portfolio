@@ -1,0 +1,60 @@
+{
+  "site": {
+    "title": "Kaung Htet Aung",
+    "base_url": "/",
+
+    "logo": "/images/programmer2.png",
+    "logo_white": "/images/programmer2.png",
+    "logo_width": "50",
+    "logo_height": "50",
+    "logo_text": "GeKaungeky"
+  },
+  "settings": {
+    "theme_switcher": true,
+    "default_theme": "system",
+    "pagination": 6,
+    "InnerPaginationOptions": {
+      "enableTop": false,
+      "enableBottom": true
+    },
+    "summary_length": 200,
+    "blog_folder": "posts"
+  },
+  "params": {
+    "tag_manager_id": "",
+    "footer_content": "Full-stack JavaScript developer with an ownership mindset, turning product strategy and code into scalable, growth-oriented systems.",
+    "copyright": "Designed and Developed By Kaung Htet Aung"
+  },
+  "metadata": {
+    "meta_author": "Statichunt",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Geeky Nextjs Personal Blog Template"
+  },
+  "widgets": {
+    "about": {
+      "enable": true,
+      "content": "I’m a full-stack JavaScript developer who treats products like my own. I build scalable, business-focused solutions and enjoy working closely with startups to turn technical execution into sustainable growth."
+    },
+    "featured_posts": {
+      "enable": true,
+      "title": "Blog Categories",
+      "showPost": 3
+    },
+    "categories": {
+      "enable": true,
+      "title": "Blog Categories"
+    },
+    "newsletter": {
+      "enable": true,
+      "title": "Newsletter",
+      "content": "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!",
+      "privacy_policy_page": "#",
+      "malichipm_url": ""
+    }
+  },
+  "disqus": {
+    "enable": true,
+    "shortname": "themefisher-template",
+    "settings": {}
+  }
+}

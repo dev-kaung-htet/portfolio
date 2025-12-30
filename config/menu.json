@@ -1,0 +1,22 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Experiences",
+      "url": "/about"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Experiencs",
+      "url": "/about"
+    }
+  ]
+}
